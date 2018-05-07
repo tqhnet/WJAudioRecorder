@@ -1,0 +1,367 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0D1FC603209FFDBE009BE399 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D1FC602209FFDBE009BE399 /* AppDelegate.m */; };
+		0D1FC606209FFDBE009BE399 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D1FC605209FFDBE009BE399 /* ViewController.m */; };
+		0D1FC609209FFDBE009BE399 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0D1FC607209FFDBE009BE399 /* Main.storyboard */; };
+		0D1FC60B209FFDBE009BE399 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0D1FC60A209FFDBE009BE399 /* Assets.xcassets */; };
+		0D1FC60E209FFDBE009BE399 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0D1FC60C209FFDBE009BE399 /* LaunchScreen.storyboard */; };
+		0D1FC611209FFDBE009BE399 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D1FC610209FFDBE009BE399 /* main.m */; };
+		0D1FC619209FFDD1009BE399 /* WJAudioRecorder.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D1FC618209FFDD1009BE399 /* WJAudioRecorder.m */; };
+		0D1FC62020A024AC009BE399 /* WJAudioRecorder+Mp3.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D1FC61F20A024AC009BE399 /* WJAudioRecorder+Mp3.m */; };
+		0D1FC62C20A02A4B009BE399 /* libmp3lame.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0D1FC62B20A02A4B009BE399 /* libmp3lame.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0D1FC5FE209FFDBE009BE399 /* WJAudioRecorder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WJAudioRecorder.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0D1FC601209FFDBE009BE399 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		0D1FC602209FFDBE009BE399 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		0D1FC604209FFDBE009BE399 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		0D1FC605209FFDBE009BE399 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		0D1FC608209FFDBE009BE399 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0D1FC60A209FFDBE009BE399 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0D1FC60D209FFDBE009BE399 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0D1FC60F209FFDBE009BE399 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0D1FC610209FFDBE009BE399 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0D1FC617209FFDD0009BE399 /* WJAudioRecorder.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WJAudioRecorder.h; sourceTree = "<group>"; };
+		0D1FC618209FFDD1009BE399 /* WJAudioRecorder.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WJAudioRecorder.m; sourceTree = "<group>"; };
+		0D1FC61E20A024AC009BE399 /* WJAudioRecorder+Mp3.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "WJAudioRecorder+Mp3.h"; sourceTree = "<group>"; };
+		0D1FC61F20A024AC009BE399 /* WJAudioRecorder+Mp3.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "WJAudioRecorder+Mp3.m"; sourceTree = "<group>"; };
+		0D1FC62A20A02A4B009BE399 /* lame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = lame.h; sourceTree = "<group>"; };
+		0D1FC62B20A02A4B009BE399 /* libmp3lame.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libmp3lame.a; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0D1FC5FB209FFDBE009BE399 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0D1FC62C20A02A4B009BE399 /* libmp3lame.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0D1FC5F5209FFDBE009BE399 = {
+			isa = PBXGroup;
+			children = (
+				0D1FC600209FFDBE009BE399 /* WJAudioRecorder */,
+				0D1FC5FF209FFDBE009BE399 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0D1FC5FF209FFDBE009BE399 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0D1FC5FE209FFDBE009BE399 /* WJAudioRecorder.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0D1FC600209FFDBE009BE399 /* WJAudioRecorder */ = {
+			isa = PBXGroup;
+			children = (
+				0D1FC62920A02A4B009BE399 /* lame */,
+				0D1FC601209FFDBE009BE399 /* AppDelegate.h */,
+				0D1FC602209FFDBE009BE399 /* AppDelegate.m */,
+				0D1FC604209FFDBE009BE399 /* ViewController.h */,
+				0D1FC605209FFDBE009BE399 /* ViewController.m */,
+				0D1FC617209FFDD0009BE399 /* WJAudioRecorder.h */,
+				0D1FC618209FFDD1009BE399 /* WJAudioRecorder.m */,
+				0D1FC61E20A024AC009BE399 /* WJAudioRecorder+Mp3.h */,
+				0D1FC61F20A024AC009BE399 /* WJAudioRecorder+Mp3.m */,
+				0D1FC607209FFDBE009BE399 /* Main.storyboard */,
+				0D1FC60A209FFDBE009BE399 /* Assets.xcassets */,
+				0D1FC60C209FFDBE009BE399 /* LaunchScreen.storyboard */,
+				0D1FC60F209FFDBE009BE399 /* Info.plist */,
+				0D1FC610209FFDBE009BE399 /* main.m */,
+			);
+			path = WJAudioRecorder;
+			sourceTree = "<group>";
+		};
+		0D1FC62920A02A4B009BE399 /* lame */ = {
+			isa = PBXGroup;
+			children = (
+				0D1FC62A20A02A4B009BE399 /* lame.h */,
+				0D1FC62B20A02A4B009BE399 /* libmp3lame.a */,
+			);
+			path = lame;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0D1FC5FD209FFDBE009BE399 /* WJAudioRecorder */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0D1FC614209FFDBE009BE399 /* Build configuration list for PBXNativeTarget "WJAudioRecorder" */;
+			buildPhases = (
+				0D1FC5FA209FFDBE009BE399 /* Sources */,
+				0D1FC5FB209FFDBE009BE399 /* Frameworks */,
+				0D1FC5FC209FFDBE009BE399 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WJAudioRecorder;
+			productName = WJAudioRecorder;
+			productReference = 0D1FC5FE209FFDBE009BE399 /* WJAudioRecorder.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0D1FC5F6209FFDBE009BE399 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = tqh;
+				TargetAttributes = {
+					0D1FC5FD209FFDBE009BE399 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 0D1FC5F9209FFDBE009BE399 /* Build configuration list for PBXProject "WJAudioRecorder" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0D1FC5F5209FFDBE009BE399;
+			productRefGroup = 0D1FC5FF209FFDBE009BE399 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0D1FC5FD209FFDBE009BE399 /* WJAudioRecorder */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0D1FC5FC209FFDBE009BE399 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0D1FC60E209FFDBE009BE399 /* LaunchScreen.storyboard in Resources */,
+				0D1FC60B209FFDBE009BE399 /* Assets.xcassets in Resources */,
+				0D1FC609209FFDBE009BE399 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0D1FC5FA209FFDBE009BE399 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0D1FC606209FFDBE009BE399 /* ViewController.m in Sources */,
+				0D1FC619209FFDD1009BE399 /* WJAudioRecorder.m in Sources */,
+				0D1FC611209FFDBE009BE399 /* main.m in Sources */,
+				0D1FC62020A024AC009BE399 /* WJAudioRecorder+Mp3.m in Sources */,
+				0D1FC603209FFDBE009BE399 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		0D1FC607209FFDBE009BE399 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0D1FC608209FFDBE009BE399 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0D1FC60C209FFDBE009BE399 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0D1FC60D209FFDBE009BE399 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0D1FC612209FFDBE009BE399 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		0D1FC613209FFDBE009BE399 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0D1FC615209FFDBE009BE399 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7YNK8EZZR8;
+				INFOPLIST_FILE = WJAudioRecorder/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/WJAudioRecorder/caf-mp3-master",
+					"$(PROJECT_DIR)/WJAudioRecorder/lamp",
+					"$(PROJECT_DIR)/WJAudioRecorder/lame",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.tqh.WJAudioRecorder;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0D1FC616209FFDBE009BE399 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7YNK8EZZR8;
+				INFOPLIST_FILE = WJAudioRecorder/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/WJAudioRecorder/caf-mp3-master",
+					"$(PROJECT_DIR)/WJAudioRecorder/lamp",
+					"$(PROJECT_DIR)/WJAudioRecorder/lame",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.tqh.WJAudioRecorder;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0D1FC5F9209FFDBE009BE399 /* Build configuration list for PBXProject "WJAudioRecorder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0D1FC612209FFDBE009BE399 /* Debug */,
+				0D1FC613209FFDBE009BE399 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0D1FC614209FFDBE009BE399 /* Build configuration list for PBXNativeTarget "WJAudioRecorder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0D1FC615209FFDBE009BE399 /* Debug */,
+				0D1FC616209FFDBE009BE399 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0D1FC5F6209FFDBE009BE399 /* Project object */;
+}
